@@ -14,11 +14,15 @@
 .nivoSlider {
 	position:relative;
 }
+
+
 .nivoSlider img {
 	position:absolute;
 	top:0px;
 	left:0px;
 }
+
+
 /* If an image is wrapped in a link */
 .nivoSlider a.nivo-imageLink {
 	position:absolute;
@@ -32,6 +36,7 @@
 	z-index:6;
 	display:none;
 }
+
 /* The slices and boxes in the Slider */
 .nivo-slice {
 	display:block;
