@@ -1285,6 +1285,12 @@ This is the CSS for the social links
 	font-size: 0.3em;
    }
 
+h4 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #454544;
+	text-decoration: none;
+	font-size: 1em;
+}
  }
    /* Smartphones (landscape) ----------- */
    @media only screen  
@@ -1328,6 +1334,13 @@ This is the CSS for the social links
 	text-decoration: none;
 	font-size: 0.3em;
    }
+
+h4 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #454544;
+	text-decoration: none;
+	font-size: 1em;
+}
 }
 
    /* iPhone 4 ----------- */
