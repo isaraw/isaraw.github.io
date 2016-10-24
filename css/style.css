@@ -1250,9 +1250,28 @@ This is the CSS for the social links
    /* Smartphones (portrait and landscape) ----------- */
    @media only screen 
    and (max-device-width : 480px) {
-   #header-text {
+  #header-wrapper {
+	position: fixed;
+	background-color: #FFF;
+	width: 100%;
+	top: 0px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d8d8d8;
+	z-index: 5000;
+}
+#header {
+	width: 100%;
+}
+#logo {
+	float: left;
+	width: 100px;
+	padding: 20px 0 10px 40px;
+}
+#header-text {
 	width: 100%;
 	padding-top: 10px;
+	margin-left: 50px;
 	display: block;
 }
 #header-text h6 {
@@ -1263,17 +1282,10 @@ This is the CSS for the social links
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	color: #d8d8d8;
 	text-decoration: none;
-	font-size: 1em;
-}
-     
-  h4 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	color: #454544;
-	text-decoration: none;
-	font-size: 2em;
-}   
+	font-size: 0.3em;
    }
 
+ }
    /* Smartphones (landscape) ----------- */
    @media only screen  
    and (min-width : 321px) {
@@ -1282,9 +1294,28 @@ This is the CSS for the social links
    /* Smartphones (portrait) ----------- */
    @media only screen 
    and (max-width : 320px) {
-   #header-text {
+   #header-wrapper {
+	position: fixed;
+	background-color: #FFF;
+	width: 100%;
+	top: 0px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d8d8d8;
+	z-index: 5000;
+}
+#header {
+	width: 100%;
+}
+#logo {
+	float: left;
+	width: 100px;
+	padding: 20px 0 10px 40px;
+}
+#header-text {
 	width: 100%;
 	padding-top: 10px;
+	margin-left: 50px;
 	display: block;
 }
 #header-text h6 {
@@ -1295,15 +1326,8 @@ This is the CSS for the social links
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
 	color: #d8d8d8;
 	text-decoration: none;
-	font-size: 1em;
-}
+	font-size: 0.3em;
    }
-
-   h4 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
-	color: #454544;
-	text-decoration: none;
-	font-size: 2em;
 }
 
    /* iPhone 4 ----------- */
