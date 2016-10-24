@@ -1219,49 +1219,85 @@ This is the CSS for the social links
  word-break:normal;}
 
 
-/* ===== == = === Base Styles === = == ===== */
 
+ /* iPads (portrait) ----------- */
+   @media only screen 
+   and (max-device-width : 1024px) 
+   and (orientation : portrait) {
+   /* Styles */
 
-/* ===== == = === 20em (320px) === = == ===== */
+   }
 
-@media only screen and (min-width : 20em) {
+   /* iPads (landscape) ----------- */
+   @media only screen  
+   and (max-device-width : 1024px) 
+   and (orientation : landscape) {
+   /* Styles */
+   }
 
- 
+   /* iPads (portrait and landscape) ----------- */
+   @media only screen 
+   and (max-device-width : 1024px) {
+   /* Styles */
+   }
+
+   /* 1140 Grid Break Sections ------- */
+   @media only screen 
+   and (max-width: 767px) {
+   /* Styles */
+   }
+
+   /* Smartphones (portrait and landscape) ----------- */
+   @media only screen 
+   and (max-device-width : 480px) {
+   #header-text {
+	width: 100%;
+	padding-top: 10px;
+	display: block;
 }
-
-/* ===== == = === 30em (480px) === = == ===== */
-
-@media only screen and (min-width : 30em) {
-
-   
+#header-text h6 {
+	font-size: 2em;
+	color: #d8d8d8;
 }
-
-/* ===== == = === 37.5em (600px) === = == ===== */
-
-@media only screen and (min-width: 37.5em) {
-
-   
+#header-text a {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #d8d8d8;
+	text-decoration: none;
+	font-size: 2em;
 }
+          
+   }
 
-/* ===== == = === 48em (768px) === = == ===== */
+   /* Smartphones (landscape) ----------- */
+   @media only screen  
+   and (min-width : 321px) {
+   }
 
-@media only screen and (min-width : 48em) {
+   /* Smartphones (portrait) ----------- */
+   @media only screen 
+   and (max-width : 320px) {
+   #header-text {
+	width: 100%;
+	padding-top: 10px;
+	display: block;
 }
-
-/* ===== == = === 56.25em (900px) === = == ===== */
-
-@media only screen and (min-width : 56.25em) {
+#header-text h6 {
+	font-size: 2em;
+	color: #d8d8d8;
 }
-
-/* ===== == = === 68.75em (1100px) === = == ===== */
-
-@media only screen and (min-width : 68.75em) {
+#header-text a {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #d8d8d8;
+	text-decoration: none;
+	font-size: 2em;
 }
+   }
 
-/* ===== == = === 81.25em (1300px) === = == ===== */
-
-@media only screen and (min-width : 81.25em) {
+   /* iPhone 4 ----------- */
+   @media
+   only screen and (-webkit-min-device-pixel-ratio : 1.5),
+   only screen and (min-device-pixel-ratio : 1.5) {
+   /* Styles */
 }
-
 
 
