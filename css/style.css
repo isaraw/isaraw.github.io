@@ -1233,7 +1233,9 @@ This is the CSS for the social links
 }
 body {font-size:3em}
 h4 {
-
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #454544;
+	text-decoration: none;
 	font-size: 4em;
 }
 }
@@ -1249,7 +1251,9 @@ h4 {
 }
 body {font-size:3em}
 h4 {
-	
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #454544;
+	text-decoration: none;
 	font-size: 4em;
 }
 }
@@ -1265,7 +1269,9 @@ h4 {
 }
 body {font-size:3em}
 h4 {
-	
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #454544;
+	text-decoration: none;
 	font-size: 4em;
 }
 }
