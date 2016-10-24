@@ -1294,6 +1294,14 @@ iPad 3
 	padding-top: 50px;
 	z-index: 1;
 }
+body {font-size:3em}
+h4 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 4em;
+}
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
