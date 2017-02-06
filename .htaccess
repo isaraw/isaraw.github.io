@@ -1,0 +1,13 @@
+# 301 Redirect URLs.
+Redirect 301 https://isaraw.github.io/adrien-grimmeau https://isaraw.github.io/graffiti
+Redirect 301 https://isaraw.github.io/alessandra-brigiotti https://isaraw.github.io/brigiotti
+Redirect 301 https://isaraw.github.io/Analytics https://isaraw.github.io/analyticssubdomains
+
+Redirect 301 https://isaraw.github.io/aow-case-study https://isaraw.github.io/facebookcampaign
+Redirect 301 https://isaraw.github.io/a-terrible-beauty https://isaraw.github.io/terriblebeauty
+Redirect 301 https://isaraw.github.io/bacons-gamble https://isaraw.github.io/baconsgamble
+
+Redirect 301 https://isaraw.github.io/ballad https://isaraw.github.io/webdesign
+Redirect 301 https://isaraw.github.io/blog1 https://isaraw.github.io/articles
+Redirect 301 https://isaraw.github.io/blog2 https://isaraw.github.io/articles
+
