@@ -33,6 +33,30 @@
 
         </script>
     
+	
+	
+	
+<script type="text/javascript">
+// Author: ricocheting.com
+// Description: slideshow that allows visitors to flip through a series of images on your website
+
+var x_1=0;
+
+function rotate_1(num){
+fs=document.ff_1.slide;
+x_1=num%fs.length;
+if(x_1<0) x_1=fs.length-1;
+document.images.show_1.src=fs.options[x_1].value;
+fs.selectedIndex=x_1;}
+
+function auto_1() {
+if(document.ff_1.fa.value == "Stop"){
+rotate_1(++x_1);setTimeout("auto_1()", 5000);}}
+</script>
+	
+	
+	
+	
     </head>
     <body>
 				
@@ -239,10 +263,66 @@
 		                <div class="col-sm-12 text-center">
 		                    <h4 class="uppercase mb16">my photo gallery</h4>
 		                    <p class="lead mb64">
-		                        Some of my photos taken around the world. Can you recognise these places?<br/> Find more photos in my <a href="https://500px.com/isaraw" target="_blank">500px</a> and<a href="https://www.instagram.com/isa_raw/?hl=en" target="_blank"> Instagram </a> profiles</p>
+		                        Some of my photos taken around the world. Can you recognise these places?<br/> Find more photos in my <a href="https://500px.com/isaraw" target="_blank">500px</a> and<a href="https://www.instagram.com/isa_raw/?hl=en" target="_blank"> Instagram </a> profiles <br> Click start below to view slideshow.</p>
 		                </div>
 		            </div>
 		            
+					
+
+						
+
+
+<!-- code from https://www.ricocheting.com/code/javascript/html-generator/image-slideshow -->
+<form name="ff_1">
+<table cellpadding="3" style="border:0px black solid;border-collapse:collapse; " align="center">
+
+<tr><td align="center" style="border:0px black solid;">
+<input type="button" onclick="rotate_1(0);" value="ll&lt;&lt;" title="Jump to beginning" />
+<input type="button" onclick="rotate_1(x_1-1);" value="&lt;&lt;" title="Last Picture" />
+<input type="button" name="fa" onClick="this.value=((this.value=='Stop')?'Start':'Stop');auto_1();" value="Start" title="Autoplay" style="width:75px;" />
+<input type="button" onclick="rotate_1(x_1+1);" value="&gt;&gt;" title="Next Picture" />
+<input type="button" onclick="rotate_1(this.form.slide.length-1);" value="&gt;&gt;ll" title="Jump to end" />
+</td></tr>
+<tr><th align="center">Latest photos</th></tr>
+
+<tr><td align="center">
+<img src="https://drscdn.500px.org/photo/1029405694/m%3D900/v2?sig=cb1098678a8f8cdcef5573a2fc4f801267f7c1776f1997e9e188e730aa7ec099" name="show_1">
+</td></tr>
+
+<tr><td align="center" style="border:0px black solid;">
+<select name="slide" onChange="rotate_1(this.selectedIndex);">
+<option value="https://drscdn.500px.org/photo/1029405694/m%3D900/v2?sig=cb1098678a8f8cdcef5573a2fc4f801267f7c1776f1997e9e188e730aa7ec099">King of the pond</option>
+<option value="https://drscdn.500px.org/photo/1028865069/m%3D900/v2?sig=8e71cbfba98d63e4878f21686724a98d78980db46c0d16c919e1b560b9f36987">Kingfisher</option>
+<option value="https://drscdn.500px.org/photo/1028106621/m%3D900/v2?sig=c979fcf1150481f57a2465aa9bacb270f6bba12e9efbb0696f3418c05aedd8d0">Riverside</option>
+<option value="https://drscdn.500px.org/photo/1025164066/m%3D900/v2?sig=5077113bb8f1e26d7c0c15aa151e6e529284447a8202a89340c9ce71aa898265">Monti Sibillini</option>
+<option value="https://drscdn.500px.org/photo/1025043646/m%3D900/v2?sig=c72408608710fa4409d15fec9d425549653c37425590dbeabc70ceb26e472e8f">Erg Chebbi Desert</option>
+<option value="https://drscdn.500px.org/photo/1024516927/m%3D900/v2?sig=994713d884967a08efb303181270792b1bece5fb7763da0de74c3c2c9fd96828">Varano Lake</option>
+<option value="https://drscdn.500px.org/photo/1024435065/m%3D900/v2?sig=33a200803f4519d11365b42ef88f942f6a2f216636f6333b219b2b8a43af5911">Ticknock Forest</option>
+<option value="https://drscdn.500px.org/photo/1008278918/m%3D900/v2?sig=77b571bc602d00c5e3dfafc000a4202f10112034fc7fc5a8dc65ea19891e3da8">Mountain Hut</option>
+<option value="https://drscdn.500px.org/photo/308670843/m%3D900/v2?sig=8d2855b8dd6d9cfdc13517fa027fcaf830a38653f6d345d36ea240d093e85493">Lago Palu'</option>
+<option value="https://drscdn.500px.org/photo/266047769/m%3D900/v2?sig=7032e4d8a85810ddb280767066f1f06e9c7d71696add0a113d9b3e7199a9a489">Sunset on Sibillini</option>
+
+
+<option value="https://drscdn.500px.org/photo/1027459026/m%3D900/v2?sig=9af6a8bf2f1a500e5a3e3c41b3752258ce63ed3ea9c22ee8803acc29bde109e4">Mallard</option>
+<option value="https://drscdn.500px.org/photo/280480565/m%3D900/v2?sig=3df13365d7c10419db5528ca525d0b1f539cd0ba1812d5d4eb0f3795cab268d0">Lake in Snowdonia</option>
+<option value="https://drscdn.500px.org/photo/219262545/m%3D900/v2?sig=176c6162e3bdddd8a412cbb5292c02b3143088bfc98886ad8b3365b9cf1a6bf7">Douro river</option>
+<option value="https://drscdn.500px.org/photo/1028183020/m%3D900/v2?sig=0a4a631826fc974e5097fbd4b032c1f714c9319930cb6758e4cc65db35a440a5">Robin</option>
+<option value="https://drscdn.500px.org/photo/1024557037/m%3D900/v2?sig=5386ebfbd2c0d5df7c9f81bc3f137fc4fb530d065af327aab21a9b966929ba6d">Autumn Walks</option>
+
+
+</select>
+</td></tr>
+
+</table></form>
+
+
+
+
+
+
+
+
+					
 		            <div class="row">
 		                <div class="col-sm-12">
 		                    <div class="lightbox-grid square-thumbs" data-gallery-title="Gallery">
