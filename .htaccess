@@ -7,3 +7,7 @@ RewriteRule ^(.*)$ http://www.https://isaraw.github.io//$1 [r=301,nc]
 //301 Redirect Old File
 Redirect 301 /blog1.html /articles1.html
 Redirect 301 /targeting.html /onlinetargeting.html
+
+<FilesMatch ".pdf$">
+Header set X-Robots-Tag "noindex, noarchive, nosnippet"
+</FilesMatch>
