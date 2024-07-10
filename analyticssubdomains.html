@@ -283,15 +283,17 @@
 		                        
 		                        <hr>
 		                        
-		                        <p>This plan was prepared and implemented for a company that was previously tracking its domain and subdomains (about 30, in 6 different languages and markets) in different Google Analytics accounts. The existing Analytics settings showed the following issues: 
-		<br>
-		<br>1) Conversions funnels (account registrations) started from various subdomains and ended in a “thank you” page in the main domain. For this reason, they could not set up funnels and goals, hence they could not track conversions across different subdomains.
-		<br>2)	Traffic from subdomains to the main domain was tracked in the GA account of the main domain as new/returning traffic, inflating the actual number of visits to the website (and its subdomains).
-		<br>3) Visitors who left the main domain to go to subdomains and vice versa were counted as exits or bounces. 
-		<br>4) Google Analytics was not updated to Universal Analytics. 
-		<br>
-		<br>At the same time, the company was in the process of moving to new domain and subdomains' names across all its websites - i.e. from www.olddomainname.com to www.newdomainname.com and from subdomain.olddomainname.com to subdomain.newdomainname.com. 
-		<br>Some of the company’s subdomains had up to 2 million visits per month.
+		                        <p>This plan was devised and implemented for a company managing approximately 30 domain and subdomain instances across six different languages and markets, each previously tracked in separate Google Analytics accounts. The existing setup presented several challenges:
+					</p>
+ <p>1)Conversion funnels, particularly account registrations starting from various subdomains and concluding on a “thank you” page within the main domain, couldn’t be properly configured. This hindered the ability to establish funnels and goals, thereby impeding conversion tracking across different subdomains.
+
+</br>    Traffic from subdomains to the main domain was incorrectly categorized as new or returning visits within the main domain’s GA account, resulting in inflated visit counts across the website and its subdomains.
+
+				    </br>  Visitors moving between the main domain and subdomains were erroneously counted as exits or bounces in analytics reports.
+
+				    </br> The Google Analytics setup was outdated and had not been migrated to Universal Analytics.
+				    </p>
+<p></p>Simultaneously, the company was transitioning to new domain and subdomain names across all websites—from www.olddomainname.com to www.newdomainname.com and from subdomain.olddomainname.com to subdomain.newdomainname.com. Some subdomains were experiencing traffic volumes as high as 2 million visits per month.</p>
 		<br>
 		<br>Old GA settings:</p>
                                 <img src="img/casestudies/oldGA.png" alt="google analytics" >        
@@ -310,18 +312,18 @@
 		                        
 		                        <hr>
 		                        
-		                        <p>1)	I created a new Account and updated it to Universal Analytics. This also allowed to keep intact historical data from the old account.
-		<br>2)	I set up sub-domain tracking to track main domain and all subdomains. I implemented the same UA code across domain and subdomains, using the company’s internal tools to place Google Analytics code in the webpages.
-		<br>3)	I created a view for each subdomain:
+		                        <p>1)	Implemented a new Universal Analytics account while preserving historical data from the previous account.
+		<br>2)	Enabled sub-domain tracking across all domain and subdomain instances by deploying the same Universal Analytics code uniformly using internal tools for placement.
+		<br>3)	Configured separate folders within Google Analytics for each subdomain to ensure granular tracking and reporting capabilities.
 		</p>
                                     <img src="img/casestudies/newGA.png" alt="google analytics">
 
                                 
-                                <p>5)	I created an unfiltered view to collect and store raw data from all the company’s websites. 
-		<br>6)	I created a view to track conversion goals only, and added a filter to exclude all query parameters from the URLs in order to create clean reports.
+                                <p>4)	Established an unfiltered view to capture and archive raw data from all company websites.
+		<br>5)	Set up a dedicated view to focus solely on tracking conversion goals, implementing filters to exclude query parameters from URLs for cleaner and more accurate reporting.
 		</p>
                                     <img src="img/casestudies/parametersfilter.png" alt="google analytics">
-		<p>7)	In the Conversions Goals view, I created funnels to track several conversion goals. In particular the company's main KPI was registrations to the website, coming from different subdomains. &nbsp;
+		<p>6)	Created detailed funnels within the Conversion Goals view to track key performance indicators (KPIs), specifically registrations originating from various subdomains across the company’s websites.
                                    <br/> <br/><img src="img/casestudies/goals.png" alt="google analytics">
 
                                 &nbsp;</p>
@@ -341,13 +343,12 @@
 		                        
 		                        <hr>
 		                        
-		                        <p>1)	Funnels are now being used to track drop rate across the funnel's pages:
+		                        <p>1)	Funnels are now effectively utilized to monitor drop rates across each stage of the conversion process:
 		</p>
                                     <img src="img/casestudies/funnel.png" alt="google analytics">
 
                                 
-                                <br>2)	Conversions rate from different sources/mediums are being tracked by looking the reports in the Conversion Goal View (excluding query parameters) - Behaviour Tab, showing Landing pages and adding Sources as secondary dimensions &nbsp;
-                                  <br/> <br/> <img src="img/casestudies/conversions.png" alt="google analytics">
+                                <br>2)	Conversion rates from different sources and mediums are tracked through comprehensive reports within the Conversion Goal View, utilizing the Behavior tab to analyze landing pages and secondary dimensions like traffic sources.
 
                                 &nbsp;<br></p>
 		                        
