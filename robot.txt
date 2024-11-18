@@ -2,3 +2,4 @@ User-agent: *
 Disallow: /medtechcampaign.html
 Disallow: /sleep-disorders.html
 Disallow: /index.html
+Disallow: /case-studies/Diabetes_Case_study.pdf
